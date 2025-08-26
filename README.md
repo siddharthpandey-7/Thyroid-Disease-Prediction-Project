@@ -41,7 +41,7 @@ The system predicts three thyroid conditions based on five key biomarkers:
 
 ### Prerequisites
 ```bash
-Python 3.8+
+Python-3.12.7
 pip (Python package manager)
 ```
 
