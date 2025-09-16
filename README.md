@@ -41,7 +41,7 @@ The system predicts three thyroid conditions based on five key biomarkers:
 
 ### Prerequisites
 ```bash
-Python 3.8+
+Python-3.12.7
 pip (Python package manager)
 ```
 
@@ -174,14 +174,13 @@ The system includes intelligent overrides:
 
 ### Dependencies
 ```python
-Flask==2.3.2
-scikit-learn==1.3.0
-xgboost==1.7.6
-pandas==2.0.3
-numpy==1.24.3
-imbalanced-learn==0.11.0
-matplotlib==3.7.2
-seaborn==0.12.2
+Flask==3.1.1
+scikit-learn==1.6.1
+numpy==2.2.6
+pandas==2.3.1
+xgboost==3.0.2
+imbalanced-learn==0.13.0
+gunicorn==21.2.0
 ```
 
 ### Key Technologies
