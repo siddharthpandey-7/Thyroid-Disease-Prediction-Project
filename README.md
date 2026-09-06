@@ -16,7 +16,7 @@ The project includes data preprocessing, class balancing, model comparison, eval
 - Feature scaling using `StandardScaler`
 - Class balancing using `SMOTE`
 - Comparison of five machine learning models
-- - XGBoost-based classification
+- XGBoost-based classification
 - Prediction probabilities and confidence display
 - Rule-based TSH override
 - Flask web interface
