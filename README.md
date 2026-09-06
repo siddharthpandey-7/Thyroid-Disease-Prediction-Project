@@ -218,7 +218,7 @@ For questions, issues, or suggestions related to this project:
 
 - **Issues:** Use the GitHub Issues section to report bugs or technical problems.
 - **Discussions:** Use GitHub Discussions for general questions, ideas, and project-related discussions.
-- **Email:** your.email@example.com
+- **Email:** siddharthpandey97825@gmail.com
 
 Contributions, feedback, and improvements are always welcome.
 
