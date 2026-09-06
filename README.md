@@ -16,7 +16,7 @@ The project includes data preprocessing, class balancing, model comparison, eval
 - Feature scaling using `StandardScaler`
 - Class balancing using `SMOTE`
 - Comparison of five machine learning models
-- XGBoost-based prediction
+- - XGBoost-based classification
 - Prediction probabilities and confidence display
 - Rule-based TSH override
 - Flask web interface
@@ -166,8 +166,8 @@ Thyroid_Disease_Prediction/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/your-repository-name.git
-cd your-repository-name
+git clone https://github.com/siddharthpandey-7/Thyroid-Disease-Prediction-Project.git
+cd Thyroid-Disease-Prediction-Project
 ```
 
 ### 2. Create a virtual environment
@@ -202,15 +202,13 @@ pip install -r requirements.txt
 python app.py
 ```
 
-Open: (https://thyroid-disease-prediction-project.onrender.com)
+Open the application: [Live Demo](https://thyroid-disease-prediction-project.onrender.com)
 
 ---
 
 ## ⚕️ Medical Disclaimer
 
-This project is intended for educational and research purposes only.
-
-It is not a substitute for professional medical advice, diagnosis, or treatment.
+This project is intended for educational and research purposes only and is not a substitute for professional medical advice, diagnosis, or treatment.
 
 ## 📞 Support
 
