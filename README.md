@@ -37,11 +37,11 @@ The model uses five clinical parameters:
 
 ### Prediction Classes
 
-```
+\`\`\`
 1 → Normal
 2 → Hyperthyroid
 3 → Hypothyroid
-```
+\`\`\`
 
 ---
 
@@ -96,10 +96,10 @@ Test-set performance:
 
 The Flask application includes a simple rule-based override for extreme Basal TSH values:
 
-```
+\`\`\`
 Basal TSH < 0.4  → Hyperthyroid
 Basal TSH > 5.0  → Hypothyroid
-```
+\`\`\`
 
 When the machine learning prediction disagrees with the applicable rule, the rule-based prediction overrides the model prediction.
 
@@ -123,7 +123,7 @@ The Flask application:
 
 ## 📁 Project Structure
 
-```
+\`\`\`
 Thyroid_Disease_Prediction/
 │
 ├── templates/
@@ -142,7 +142,7 @@ Thyroid_Disease_Prediction/
 ├── runtime.txt
 ├── .gitignore
 └── README.md
-```
+\`\`\`
 
 ---
 
@@ -165,47 +165,49 @@ Thyroid_Disease_Prediction/
 
 ### 1. Clone the repository
 
-```bash
+\`\`\`bash
 git clone https://github.com/siddharthpandey-7/Thyroid-Disease-Prediction-Project.git
 cd Thyroid-Disease-Prediction-Project
-```
+\`\`\`
 
 ### 2. Create a virtual environment
 
-```bash
+\`\`\`bash
 python -m venv venv
-```
+\`\`\`
 
 ### 3. Activate the environment
 
 **Windows:**
 
-```bash
+\`\`\`bash
 venv\Scripts\activate
-```
+\`\`\`
 
 **macOS/Linux:**
 
-```bash
+\`\`\`bash
 source venv/bin/activate
-```
+\`\`\`
 
 ### 4. Install dependencies
 
-```bash
+\`\`\`bash
 pip install -r requirements.txt
-```
+\`\`\`
 
 ### 5. Run the application
 
-```bash
+\`\`\`bash
 python app.py
+\`\`\`
 
 Open the local application at:
 
 http://127.0.0.1:5000
 
 Live Demo: Thyroid Disease Prediction System
+
 ---
 
 ## ⚕️ Medical Disclaimer
