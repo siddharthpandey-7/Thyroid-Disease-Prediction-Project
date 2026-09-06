@@ -37,11 +37,11 @@ The model uses five clinical parameters:
 
 ### Prediction Classes
 
-\`\`\`
+
 1 → Normal
 2 → Hyperthyroid
 3 → Hypothyroid
-\`\`\`
+
 
 ---
 
@@ -96,10 +96,10 @@ Test-set performance:
 
 The Flask application includes a simple rule-based override for extreme Basal TSH values:
 
-\`\`\`
-Basal TSH < 0.4  → Hyperthyroid
-Basal TSH > 5.0  → Hypothyroid
-\`\`\`
+
+Basal TSH < 0.4 → Hyperthyroid
+Basal TSH > 5.0 → Hypothyroid
+
 
 When the machine learning prediction disagrees with the applicable rule, the rule-based prediction overrides the model prediction.
 
@@ -123,13 +123,13 @@ The Flask application:
 
 ## 📁 Project Structure
 
-\`\`\`
+
 Thyroid_Disease_Prediction/
 │
 ├── templates/
-│   ├── error.html
-│   ├── index.html
-│   └── result.html
+│ ├── error.html
+│ ├── index.html
+│ └── result.html
 │
 ├── app.py
 ├── best_thyroid_model.pkl
@@ -142,7 +142,7 @@ Thyroid_Disease_Prediction/
 ├── runtime.txt
 ├── .gitignore
 └── README.md
-\`\`\`
+
 
 ---
 
@@ -165,42 +165,24 @@ Thyroid_Disease_Prediction/
 
 ### 1. Clone the repository
 
-\`\`\`bash
+```bash
 git clone https://github.com/siddharthpandey-7/Thyroid-Disease-Prediction-Project.git
 cd Thyroid-Disease-Prediction-Project
-\`\`\`
-
-### 2. Create a virtual environment
-
-\`\`\`bash
+2. Create a virtual environment
 python -m venv venv
-\`\`\`
+3. Activate the virtual environment
 
-### 3. Activate the environment
+Windows:
 
-**Windows:**
-
-\`\`\`bash
 venv\Scripts\activate
-\`\`\`
 
-**macOS/Linux:**
+macOS/Linux:
 
-\`\`\`bash
 source venv/bin/activate
-\`\`\`
-
-### 4. Install dependencies
-
-\`\`\`bash
+4. Install dependencies
 pip install -r requirements.txt
-\`\`\`
-
-### 5. Run the application
-
-\`\`\`bash
+5. Run the application
 python app.py
-\`\`\`
 
 Open the local application at:
 
@@ -208,22 +190,18 @@ http://127.0.0.1:5000
 
 Live Demo: Thyroid Disease Prediction System
 
----
-
-## ⚕️ Medical Disclaimer
+⚕️ Medical Disclaimer
 
 This project is intended for educational and research purposes only and is not a substitute for professional medical advice, diagnosis, or treatment.
 
-## 📞 Support
+📞 Support
 
 For questions, issues, or suggestions related to this project:
 
-- **Issues:** Use the GitHub Issues section to report bugs or technical problems.
-- **Discussions:** Use GitHub Discussions for general questions, ideas, and project-related discussions.
-- **Email:** siddharthpandey97825@gmail.com
+Issues: Use the GitHub Issues section to report bugs or technical problems.
+Discussions: Use GitHub Discussions for general questions, ideas, and project-related discussions.
+Email: siddharthpandey97825@gmail.com
 
 Contributions, feedback, and improvements are always welcome.
 
----
-
-**Built with ❤️ for educational and research purposes.**
+Built with ❤️ for educational and research purposes.
