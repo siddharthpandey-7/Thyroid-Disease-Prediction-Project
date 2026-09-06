@@ -4,8 +4,6 @@ An end-to-end machine learning web application that classifies thyroid condition
 
 The project includes data preprocessing, class balancing, model comparison, evaluation, model persistence, and Flask-based deployment.
 
-> **Note:** This project is for educational and research purposes only and is not a medical diagnostic tool.
-
 ---
 
 ## 🎯 Features
