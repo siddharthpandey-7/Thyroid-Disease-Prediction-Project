@@ -200,10 +200,12 @@ pip install -r requirements.txt
 
 ```bash
 python app.py
-```
 
-Open the application: [Live Demo](https://thyroid-disease-prediction-project.onrender.com)
+Open the local application at:
 
+http://127.0.0.1:5000
+
+Live Demo: Thyroid Disease Prediction System
 ---
 
 ## ⚕️ Medical Disclaimer
